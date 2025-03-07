@@ -1,0 +1,204 @@
+* {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+ul,li{
+    display: flex;
+    gap:80px;
+}
+
+.image{
+    display: flex;
+    width: 80%;
+    height: 500px;
+}
+.content1{
+font-size: x-large;
+}
+#button1{
+    width: 110px;
+    height: 30px;
+padding: 3px;
+background-color: rgb(238, 170, 221);
+border-color:rgb(238, 170, 221) ;
+}
+
+.d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 71, 90, 0.656);
+    gap:30px;
+    flex-direction: row-reverse;
+    padding: 0 30px;
+    height:500px;
+    margin: 45px;
+    width: 100%;
+}
+.content2{
+    width: 30%;
+    }
+.d2{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(199, 191, 143);
+        gap:30px;
+        flex-direction: row-reverse;
+        padding: 0 30px;
+        height:800px;
+        margin: 45px;
+        width: 100%;
+
+}
+#inner-div{
+border-radius: 19px;
+padding: 20px;
+box-shadow: 10px 5px 5px rgba(0, 128, 128, 0.45);
+background-color: rgba(198, 136, 104, 0.575);
+}
+
+#inner-div #avatar{
+    border-radius:90px;
+    height: 60px;
+}
+
+#section2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(143, 186, 199);
+    gap:30px;
+    padding: 0 30px;
+    height:300px;
+    margin: 45px;
+    width: 100%;
+
+}
+input[placeholder="email@example.com"]{
+    width:300px;
+    height:40px;
+    padding: 10px;
+}
+button[type="submit"]{
+    width:160px;
+    height:40px;
+    background-color: rgba(4, 12, 91, 0.41);
+}
+button[type="submit"],#button1,.nav:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgba(3, 3, 55, 0.872);
+    color: beige;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-between;
+}
+ h4:hover{
+    cursor: pointer;
+
+}
+
+.fdiv-final{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+img[alt="icons"]{
+    display: flex;
+    height: 45px;
+    border-radius: 90px;
+}
+
+
+
+
+
+   @media screen and (max-width: 800px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    #nav-logo{
+        width: 120px;
+    }
+    
+    ul,li{
+        display: flex;
+        gap:8px;
+    }
+    .d1,.d2,#section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding:20px;
+    }
+    
+
+    .image img, .image2 img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content1, .content2 {
+        font-size: small;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    
+
+    form {
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type="email"] {
+        width: 80%;
+        max-width: 300px;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+
+   
+
+    footer {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 12px;
+        background-color: rgb(255, 255, 255);
+    }
+    .fdiv1{
+        margin-left: 0px;
+        color: black;
+    }
+
+    .fdiv2, .fdiv3, .fdiv-final {
+        margin-bottom: 20px;
+        color: black;
+        padding: 8px;
+    }
+
+    .fdiv-final img {
+        width: 40px;
+        height: 40px;
+        margin-left:  60px;
+    }
+}
